@@ -27,9 +27,20 @@ import {
   Dialog,
   MessageBox,
   Tag,
-  Tree
+  Tree,
+  Cascader,
+  Alert,
+  Tabs,
+  TabPane,
+  Steps,
+  Step,
+  Checkbox,
+  CheckboxGroup,
+  Upload
 } from 'element-ui'
 
+Vue.use(Tabs)
+Vue.use(TabPane)
 Vue.use(Button)
 Vue.use(Form)
 Vue.use(FormItem)
@@ -56,7 +67,13 @@ Vue.use(Pagination)
 Vue.use(Dialog)
 Vue.use(Tag)
 Vue.use(Tree)
-
+Vue.use(Cascader)
+Vue.use(Alert)
+Vue.use(Steps)
+Vue.use(Step)
+Vue.use(CheckboxGroup)
+Vue.use(Checkbox)
+Vue.use(Upload)
 
 Vue.prototype.$message = Message
 Vue.prototype.$confirm = MessageBox.confirm
